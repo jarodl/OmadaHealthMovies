@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AAB40432A6B46EE00EA80AF /* OmadaMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */; };
+		7AAB40452A6B46EE00EA80AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40442A6B46EE00EA80AF /* ContentView.swift */; };
+		7AAB40472A6B46EF00EA80AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB40462A6B46EF00EA80AF /* Assets.xcassets */; };
+		7AAB404A2A6B46EF00EA80AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB40492A6B46EF00EA80AF /* Preview Assets.xcassets */; };
+		7AAB40542A6B46EF00EA80AF /* OmadaMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40532A6B46EF00EA80AF /* OmadaMoviesTests.swift */; };
+		7AAB405E2A6B46EF00EA80AF /* OmadaMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB405D2A6B46EF00EA80AF /* OmadaMoviesUITests.swift */; };
+		7AAB40602A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB405F2A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AAB40502A6B46EF00EA80AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAB40372A6B46EE00EA80AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAB403E2A6B46EE00EA80AF;
+			remoteInfo = OmadaMovies;
+		};
+		7AAB405A2A6B46EF00EA80AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAB40372A6B46EE00EA80AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAB403E2A6B46EE00EA80AF;
+			remoteInfo = OmadaMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AAB403F2A6B46EE00EA80AF /* OmadaMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmadaMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesApp.swift; sourceTree = "<group>"; };
+		7AAB40442A6B46EE00EA80AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AAB40462A6B46EF00EA80AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AAB40492A6B46EF00EA80AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AAB404F2A6B46EF00EA80AF /* OmadaMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmadaMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAB40532A6B46EF00EA80AF /* OmadaMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesTests.swift; sourceTree = "<group>"; };
+		7AAB40592A6B46EF00EA80AF /* OmadaMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmadaMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAB405D2A6B46EF00EA80AF /* OmadaMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesUITests.swift; sourceTree = "<group>"; };
+		7AAB405F2A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AAB403C2A6B46EE00EA80AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB404C2A6B46EF00EA80AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB40562A6B46EF00EA80AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AAB40362A6B46EE00EA80AF = {
+			isa = PBXGroup;
+			children = (
+				7AAB40412A6B46EE00EA80AF /* OmadaMovies */,
+				7AAB40522A6B46EF00EA80AF /* OmadaMoviesTests */,
+				7AAB405C2A6B46EF00EA80AF /* OmadaMoviesUITests */,
+				7AAB40402A6B46EE00EA80AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAB40402A6B46EE00EA80AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB403F2A6B46EE00EA80AF /* OmadaMovies.app */,
+				7AAB404F2A6B46EF00EA80AF /* OmadaMoviesTests.xctest */,
+				7AAB40592A6B46EF00EA80AF /* OmadaMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AAB40412A6B46EE00EA80AF /* OmadaMovies */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */,
+				7AAB40442A6B46EE00EA80AF /* ContentView.swift */,
+				7AAB40462A6B46EF00EA80AF /* Assets.xcassets */,
+				7AAB40482A6B46EF00EA80AF /* Preview Content */,
+			);
+			path = OmadaMovies;
+			sourceTree = "<group>";
+		};
+		7AAB40482A6B46EF00EA80AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40492A6B46EF00EA80AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AAB40522A6B46EF00EA80AF /* OmadaMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40532A6B46EF00EA80AF /* OmadaMoviesTests.swift */,
+			);
+			path = OmadaMoviesTests;
+			sourceTree = "<group>";
+		};
+		7AAB405C2A6B46EF00EA80AF /* OmadaMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB405D2A6B46EF00EA80AF /* OmadaMoviesUITests.swift */,
+				7AAB405F2A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift */,
+			);
+			path = OmadaMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AAB403E2A6B46EE00EA80AF /* OmadaMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAB40632A6B46EF00EA80AF /* Build configuration list for PBXNativeTarget "OmadaMovies" */;
+			buildPhases = (
+				7AAB403B2A6B46EE00EA80AF /* Sources */,
+				7AAB403C2A6B46EE00EA80AF /* Frameworks */,
+				7AAB403D2A6B46EE00EA80AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmadaMovies;
+			productName = OmadaMovies;
+			productReference = 7AAB403F2A6B46EE00EA80AF /* OmadaMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AAB404E2A6B46EF00EA80AF /* OmadaMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAB40662A6B46EF00EA80AF /* Build configuration list for PBXNativeTarget "OmadaMoviesTests" */;
+			buildPhases = (
+				7AAB404B2A6B46EF00EA80AF /* Sources */,
+				7AAB404C2A6B46EF00EA80AF /* Frameworks */,
+				7AAB404D2A6B46EF00EA80AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAB40512A6B46EF00EA80AF /* PBXTargetDependency */,
+			);
+			name = OmadaMoviesTests;
+			productName = OmadaMoviesTests;
+			productReference = 7AAB404F2A6B46EF00EA80AF /* OmadaMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AAB40582A6B46EF00EA80AF /* OmadaMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAB40692A6B46EF00EA80AF /* Build configuration list for PBXNativeTarget "OmadaMoviesUITests" */;
+			buildPhases = (
+				7AAB40552A6B46EF00EA80AF /* Sources */,
+				7AAB40562A6B46EF00EA80AF /* Frameworks */,
+				7AAB40572A6B46EF00EA80AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAB405B2A6B46EF00EA80AF /* PBXTargetDependency */,
+			);
+			name = OmadaMoviesUITests;
+			productName = OmadaMoviesUITests;
+			productReference = 7AAB40592A6B46EF00EA80AF /* OmadaMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AAB40372A6B46EE00EA80AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7AAB403E2A6B46EE00EA80AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7AAB404E2A6B46EF00EA80AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7AAB403E2A6B46EE00EA80AF;
+					};
+					7AAB40582A6B46EF00EA80AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7AAB403E2A6B46EE00EA80AF;
+					};
+				};
+			};
+			buildConfigurationList = 7AAB403A2A6B46EE00EA80AF /* Build configuration list for PBXProject "OmadaMovies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AAB40362A6B46EE00EA80AF;
+			productRefGroup = 7AAB40402A6B46EE00EA80AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AAB403E2A6B46EE00EA80AF /* OmadaMovies */,
+				7AAB404E2A6B46EF00EA80AF /* OmadaMoviesTests */,
+				7AAB40582A6B46EF00EA80AF /* OmadaMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AAB403D2A6B46EE00EA80AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAB404A2A6B46EF00EA80AF /* Preview Assets.xcassets in Resources */,
+				7AAB40472A6B46EF00EA80AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB404D2A6B46EF00EA80AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB40572A6B46EF00EA80AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AAB403B2A6B46EE00EA80AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAB40452A6B46EE00EA80AF /* ContentView.swift in Sources */,
+				7AAB40432A6B46EE00EA80AF /* OmadaMoviesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB404B2A6B46EF00EA80AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAB40542A6B46EF00EA80AF /* OmadaMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAB40552A6B46EF00EA80AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAB40602A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift in Sources */,
+				7AAB405E2A6B46EF00EA80AF /* OmadaMoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AAB40512A6B46EF00EA80AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAB403E2A6B46EE00EA80AF /* OmadaMovies */;
+			targetProxy = 7AAB40502A6B46EF00EA80AF /* PBXContainerItemProxy */;
+		};
+		7AAB405B2A6B46EF00EA80AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAB403E2A6B46EE00EA80AF /* OmadaMovies */;
+			targetProxy = 7AAB405A2A6B46EF00EA80AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AAB40612A6B46EF00EA80AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AAB40622A6B46EF00EA80AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAB40642A6B46EF00EA80AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OmadaMovies/Preview Content\"";
+				DEVELOPMENT_TEAM = D57Y98DZCB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "low-tide.OmadaMovies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AAB40652A6B46EF00EA80AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OmadaMovies/Preview Content\"";
+				DEVELOPMENT_TEAM = D57Y98DZCB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "low-tide.OmadaMovies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AAB40672A6B46EF00EA80AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D57Y98DZCB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "low-tide.OmadaMoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmadaMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmadaMovies";
+			};
+			name = Debug;
+		};
+		7AAB40682A6B46EF00EA80AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D57Y98DZCB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "low-tide.OmadaMoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmadaMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmadaMovies";
+			};
+			name = Release;
+		};
+		7AAB406A2A6B46EF00EA80AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D57Y98DZCB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "low-tide.OmadaMoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OmadaMovies;
+			};
+			name = Debug;
+		};
+		7AAB406B2A6B46EF00EA80AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D57Y98DZCB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "low-tide.OmadaMoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OmadaMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AAB403A2A6B46EE00EA80AF /* Build configuration list for PBXProject "OmadaMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAB40612A6B46EF00EA80AF /* Debug */,
+				7AAB40622A6B46EF00EA80AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAB40632A6B46EF00EA80AF /* Build configuration list for PBXNativeTarget "OmadaMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAB40642A6B46EF00EA80AF /* Debug */,
+				7AAB40652A6B46EF00EA80AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAB40662A6B46EF00EA80AF /* Build configuration list for PBXNativeTarget "OmadaMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAB40672A6B46EF00EA80AF /* Debug */,
+				7AAB40682A6B46EF00EA80AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAB40692A6B46EF00EA80AF /* Build configuration list for PBXNativeTarget "OmadaMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAB406A2A6B46EF00EA80AF /* Debug */,
+				7AAB406B2A6B46EF00EA80AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AAB40372A6B46EE00EA80AF /* Project object */;
+}
