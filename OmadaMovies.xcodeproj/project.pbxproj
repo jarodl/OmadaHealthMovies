@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7AAB40432A6B46EE00EA80AF /* OmadaMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */; };
-		7AAB40452A6B46EE00EA80AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40442A6B46EE00EA80AF /* ContentView.swift */; };
+		7AAB40452A6B46EE00EA80AF /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40442A6B46EE00EA80AF /* MoviesView.swift */; };
 		7AAB40472A6B46EF00EA80AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB40462A6B46EF00EA80AF /* Assets.xcassets */; };
 		7AAB404A2A6B46EF00EA80AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAB40492A6B46EF00EA80AF /* Preview Assets.xcassets */; };
 		7AAB40542A6B46EF00EA80AF /* OmadaMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40532A6B46EF00EA80AF /* OmadaMoviesTests.swift */; };
 		7AAB405E2A6B46EF00EA80AF /* OmadaMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB405D2A6B46EF00EA80AF /* OmadaMoviesUITests.swift */; };
 		7AAB40602A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB405F2A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift */; };
+		7AAB40702A6B5C2500EA80AF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB406F2A6B5C2500EA80AF /* Movie.swift */; };
+		7AAB40732A6B666700EA80AF /* TMDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40722A6B666700EA80AF /* TMDBClient.swift */; };
+		7AAB40752A6C31B500EA80AF /* MoviesSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40742A6C31B500EA80AF /* MoviesSearchViewModel.swift */; };
+		7AAB40782A6C398900EA80AF /* CombineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40772A6C398900EA80AF /* CombineExtensions.swift */; };
+		7AAB407A2A6C593400EA80AF /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40792A6C593400EA80AF /* MovieDetailView.swift */; };
+		7AAB407D2A6C598300EA80AF /* MockDataMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB407C2A6C598300EA80AF /* MockDataMovies.swift */; };
+		7AAB407F2A6D930E00EA80AF /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB407E2A6D930E00EA80AF /* MovieTests.swift */; };
+		7AAB40812A6D986200EA80AF /* TMDBClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40802A6D986200EA80AF /* TMDBClientTests.swift */; };
+		7AAB40832A6D9AD100EA80AF /* MoviesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB40822A6D9AD100EA80AF /* MoviesViewModelTests.swift */; };
+		7AAB40872A6E04DC00EA80AF /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 7AAB40862A6E04DC00EA80AF /* AlertToast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		7AAB403F2A6B46EE00EA80AF /* OmadaMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmadaMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesApp.swift; sourceTree = "<group>"; };
-		7AAB40442A6B46EE00EA80AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AAB40442A6B46EE00EA80AF /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		7AAB40462A6B46EF00EA80AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AAB40492A6B46EF00EA80AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7AAB404F2A6B46EF00EA80AF /* OmadaMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmadaMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,15 @@
 		7AAB40592A6B46EF00EA80AF /* OmadaMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmadaMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAB405D2A6B46EF00EA80AF /* OmadaMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesUITests.swift; sourceTree = "<group>"; };
 		7AAB405F2A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AAB406F2A6B5C2500EA80AF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7AAB40722A6B666700EA80AF /* TMDBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBClient.swift; sourceTree = "<group>"; };
+		7AAB40742A6C31B500EA80AF /* MoviesSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSearchViewModel.swift; sourceTree = "<group>"; };
+		7AAB40772A6C398900EA80AF /* CombineExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExtensions.swift; sourceTree = "<group>"; };
+		7AAB40792A6C593400EA80AF /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		7AAB407C2A6C598300EA80AF /* MockDataMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataMovies.swift; sourceTree = "<group>"; };
+		7AAB407E2A6D930E00EA80AF /* MovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTests.swift; sourceTree = "<group>"; };
+		7AAB40802A6D986200EA80AF /* TMDBClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBClientTests.swift; sourceTree = "<group>"; };
+		7AAB40822A6D9AD100EA80AF /* MoviesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAB40872A6E04DC00EA80AF /* AlertToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +114,12 @@
 		7AAB40412A6B46EE00EA80AF /* OmadaMovies */ = {
 			isa = PBXGroup;
 			children = (
-				7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */,
-				7AAB40442A6B46EE00EA80AF /* ContentView.swift */,
+				7AAB407B2A6C597000EA80AF /* Mock Data */,
+				7AAB40762A6C397F00EA80AF /* Extensions */,
+				7AAB40712A6B663D00EA80AF /* External APIs */,
+				7AAB406E2A6B5C1D00EA80AF /* Models */,
+				7AAB406D2A6B46FC00EA80AF /* App */,
+				7AAB406C2A6B46F700EA80AF /* Views */,
 				7AAB40462A6B46EF00EA80AF /* Assets.xcassets */,
 				7AAB40482A6B46EF00EA80AF /* Preview Content */,
 			);
@@ -113,7 +137,10 @@
 		7AAB40522A6B46EF00EA80AF /* OmadaMoviesTests */ = {
 			isa = PBXGroup;
 			children = (
+				7AAB407E2A6D930E00EA80AF /* MovieTests.swift */,
+				7AAB40802A6D986200EA80AF /* TMDBClientTests.swift */,
 				7AAB40532A6B46EF00EA80AF /* OmadaMoviesTests.swift */,
+				7AAB40822A6D9AD100EA80AF /* MoviesViewModelTests.swift */,
 			);
 			path = OmadaMoviesTests;
 			sourceTree = "<group>";
@@ -125,6 +152,64 @@
 				7AAB405F2A6B46EF00EA80AF /* OmadaMoviesUITestsLaunchTests.swift */,
 			);
 			path = OmadaMoviesUITests;
+			sourceTree = "<group>";
+		};
+		7AAB406C2A6B46F700EA80AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40842A6D9B3700EA80AF /* ViewModels */,
+				7AAB40442A6B46EE00EA80AF /* MoviesView.swift */,
+				7AAB40792A6C593400EA80AF /* MovieDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AAB406D2A6B46FC00EA80AF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40422A6B46EE00EA80AF /* OmadaMoviesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7AAB406E2A6B5C1D00EA80AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB406F2A6B5C2500EA80AF /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AAB40712A6B663D00EA80AF /* External APIs */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40722A6B666700EA80AF /* TMDBClient.swift */,
+			);
+			path = "External APIs";
+			sourceTree = "<group>";
+		};
+		7AAB40762A6C397F00EA80AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40772A6C398900EA80AF /* CombineExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7AAB407B2A6C597000EA80AF /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB407C2A6C598300EA80AF /* MockDataMovies.swift */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		7AAB40842A6D9B3700EA80AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB40742A6C31B500EA80AF /* MoviesSearchViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +228,9 @@
 			dependencies = (
 			);
 			name = OmadaMovies;
+			packageProductDependencies = (
+				7AAB40862A6E04DC00EA80AF /* AlertToast */,
+			);
 			productName = OmadaMovies;
 			productReference = 7AAB403F2A6B46EE00EA80AF /* OmadaMovies.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 7AAB40362A6B46EE00EA80AF;
+			packageReferences = (
+				7AAB40852A6E04DC00EA80AF /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
 			productRefGroup = 7AAB40402A6B46EE00EA80AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +348,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AAB40452A6B46EE00EA80AF /* ContentView.swift in Sources */,
+				7AAB40452A6B46EE00EA80AF /* MoviesView.swift in Sources */,
+				7AAB40732A6B666700EA80AF /* TMDBClient.swift in Sources */,
 				7AAB40432A6B46EE00EA80AF /* OmadaMoviesApp.swift in Sources */,
+				7AAB40782A6C398900EA80AF /* CombineExtensions.swift in Sources */,
+				7AAB40702A6B5C2500EA80AF /* Movie.swift in Sources */,
+				7AAB40752A6C31B500EA80AF /* MoviesSearchViewModel.swift in Sources */,
+				7AAB407D2A6C598300EA80AF /* MockDataMovies.swift in Sources */,
+				7AAB407A2A6C593400EA80AF /* MovieDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +363,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAB407F2A6D930E00EA80AF /* MovieTests.swift in Sources */,
 				7AAB40542A6B46EF00EA80AF /* OmadaMoviesTests.swift in Sources */,
+				7AAB40812A6D986200EA80AF /* TMDBClientTests.swift in Sources */,
+				7AAB40832A6D9AD100EA80AF /* MoviesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AAB40852A6E04DC00EA80AF /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AAB40862A6E04DC00EA80AF /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AAB40852A6E04DC00EA80AF /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7AAB40372A6B46EE00EA80AF /* Project object */;
 }
